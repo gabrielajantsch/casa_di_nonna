@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdfaf5; 
+    font-family: sans-serif; 
+}
+
+.hero {
+    background-image: url('assets/cabecalho.png');
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #90171a; 
+    font-size: 3rem; 
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    color: #90171a;
+    font-size: 1.2rem;
+    max-width: 600px; 
+}
