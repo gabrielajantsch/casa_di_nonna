@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap'); /* Importando a fonte Abhaya Libre do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap'); /* Importando a fonte ABeeZee do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap'); /* Importando a fonte Holtwood One SC do Google Fonts */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,10 +24,11 @@ header {
 }
 
 header h1 {
-    font-size: 1.2rem;       
+    font-size: 25px;       
     color: #7a0000; /* Mantive a cor final que você escolheu */
     font-family: "Abhaya Libre", serif;
-    font-weight: 700;
+    font-weight: normal;
+    text-transform: capitalize;
     line-height: 1.2;
     flex: 1; /* Faz o logo ocupar o lado esquerdo */
 }
@@ -37,7 +42,7 @@ header nav {
 
 header nav a {
     text-decoration: none;              
-    font-size: 1.1rem;      
+    font-size: 25px;      
     font-family: "Abhaya Libre", serif;
     color: #000000;
 }
@@ -46,7 +51,7 @@ header nav a {
 header > a {
     text-decoration: none;   
     color: #000;             
-    font-size: 1.1rem;
+    font-size: 25px;
     font-family: "Abhaya Libre", serif;
     flex: 1; /* Ocupa o lado direito */
     text-align: right; /* Empurra o texto "carrinho" para a ponta */
@@ -68,14 +73,18 @@ header > a {
 
 .hero h2 {
     color: #90171a; 
-    font-size: 3rem; 
+    font-size: 104px;
+    width: 50%; 
+    text-align: center;
     font-weight: bold;
     margin-bottom: 10px;
+    font-family: 'Holtwood One SC', serif;
     text-transform: uppercase;
 }
 
 .hero p {
     color: #90171a;
+    font-family: 'ABeeZee', sans-serif;
     font-size: 1.2rem;
-    max-width: 600px; 
+    width: 450px; 
 }
