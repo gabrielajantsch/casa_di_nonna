@@ -6,7 +6,50 @@
 
 body {
     background-color: #fdfaf5; 
-    font-family: sans-serif; 
+    font-family: "Abhaya Libre", serif; /* Definindo a fonte principal aqui, evita repetir em tudo */
+}
+
+header {
+    background-color: white; 
+    padding: 20px 80px;     
+    width: 100%;            
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    border-bottom: 1px solid #eee; 
+}
+
+header h1 {
+    font-size: 1.2rem;       
+    color: #7a0000; /* Mantive a cor final que você escolheu */
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+    line-height: 1.2;
+    flex: 1; /* Faz o logo ocupar o lado esquerdo */
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+    flex: 2; /* Dá espaço para o menu ficar no meio */
+    justify-content: center; /* Centraliza as opções: massas, vinhos... */
+}
+
+header nav a {
+    text-decoration: none;              
+    font-size: 1.1rem;      
+    font-family: "Abhaya Libre", serif;
+    color: #000000;
+}
+
+/* Estilo do Carrinho à direita */
+header > a {
+    text-decoration: none;   
+    color: #000;             
+    font-size: 1.1rem;
+    font-family: "Abhaya Libre", serif;
+    flex: 1; /* Ocupa o lado direito */
+    text-align: right; /* Empurra o texto "carrinho" para a ponta */
 }
 
 .hero {
