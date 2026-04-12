@@ -129,6 +129,63 @@ header > a {
     font-size: 1.2rem;
     width: min(450px, 100%); 
 }
+.card{
+width: 350px;
+height: 450px;
+background-color: rgb(227, 217, 211);
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 16px;
+transition: .25s ease-in-out;
+}
+.card img{
+width: 290px;
+height: 320px;
+object-fit: cover;
+margin-top: 16px;
+}
+.vitrine{
+height: 100vh;
+background-color: rgb(237, 230, 228);
+display: flex;
+flex-direction: column;
+gap: 50px;
+align-items: center;
+justify-content: center;
+}
+.cards{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 24px;
+}
+.card p{
+font-size: 23px;
+}
+.card span{
+text-transform: uppercase;
+color: rgb(0, 0, 0,0.5);
+}
+.vitrine h3{
+font-size: 23px;
+color: rgb(130, 0 ,0);
+text-transform: uppercase;
+font-family: 'ABeeZee', serif;
+font-weight: 300;
+}
+.vitrine h2{
+font-size: 45px;
+font-weight: 400;
+}
+.vitrine-titulos{
+text-align: center;
+}
+.card:hover{
+    scale: 1.05;
+}
 
 .sobre {
     display: flex;
