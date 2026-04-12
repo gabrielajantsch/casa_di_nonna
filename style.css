@@ -88,3 +88,73 @@ header > a {
     font-size: 1.2rem;
     width: 450px; 
 }
+.footer {
+  background-color: #1c0000; /* sua cor */
+  padding: 60px 80px;
+  display: flex;
+  gap: 100px;
+}
+
+/* colunas */
+.coluna {
+  max-width: 300px;
+}
+
+/* CASA DI NONNA */
+.coluna h2 {
+  font-family: "Abhaya Libre", serif;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+/* descrição */
+.coluna p {
+  font-family: "Abhaya Libre", serif;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+/* CATEGORIAS título */
+.coluna h3 {
+  font-family: "ABeeZee", sans-serif;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+/* lista */
+.coluna ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* itens */
+.coluna li {
+  margin-bottom: 10px;
+}
+
+/* links (itens da categoria) */
+.coluna a {
+  font-family: "Abhaya Libre", serif;
+  color: rgba(255, 255, 255, 0.77);
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.coluna a:hover {
+  color: #ffffff;
+}
+
+/* IT */
+.pais {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
