@@ -73,30 +73,6 @@ header > a {
     overflow: hidden;
 }
 
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 33.33%;
-    height: 76%;
-    background-color: #009246; 
-    z-index: -1; 
-    overflow: hidden;
-}
-
-.hero::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 33.33%;
-    height: 76%;
-    background-color: #ce2b37;
-    z-index: -1;
-    overflow: hidden;
-}
-
 .hero-conteudo {
     position: relative;
     z-index: 1;
